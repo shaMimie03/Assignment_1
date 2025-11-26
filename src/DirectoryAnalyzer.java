@@ -13,6 +13,7 @@ public class DirectoryAnalyzer {
      * @param directory The folder selected by the user.
      * @return The total number of Java files.
      */
+
     public int countJavaFiles(File directory) {
 
         int count = 0;  // Counter to track how many .java files found
